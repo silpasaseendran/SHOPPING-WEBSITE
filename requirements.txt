@@ -1,4 +1,3 @@
-Id="7hxhh3"
 Django
 gunicorn
 whitenoise
