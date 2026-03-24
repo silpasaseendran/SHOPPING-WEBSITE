@@ -1,0 +1,4 @@
+Id="j2asrf"
+Django
+gunicorn
+whitenoise
