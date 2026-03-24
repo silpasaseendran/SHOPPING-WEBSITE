@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+{% block title %} product page {% endblock %}
+{% block content %}
+
+<div class="container text-center">
+  {% for i in women %}
+  <div class="cart text-center border border-3 border-white" style="width: 18rem;display:inline-block;height:500px">
+  <img src="{{i.image}}" class="card-img-top" alt="..." height="360px">
+  <div class="card-body">
+    <h5 class="card-title">{{i.name}}</h5>
+    <p class="card-text">Rs.{{i.price}}</p>
+    <a href="#" class="btn btn-warning">Buy Now</a>
+  </div>
+</div>
+
+  {% endfor %}</div>{% endblock %}

@@ -1,0 +1,47 @@
+{% extends 'base.html' %}
+{% block title %} about page {% endblock %}
+{% block content %}
+<div class="badge bg-primary text-wrap " style="width: 10rem;font-size:30px;"
+     xmlns:input-type="http://www.w3.org/1999/html">
+PROFILE
+</div>
+
+<html>
+<form><br><br>
+    <fieldset>
+        <h5 style="color:purple;">Username:    <input type="text"><br><br></h5>
+        <h5 style="color:purple;">Password:    <input type="password"><br><br></h5>
+        <h4><input type="button" value="Login"><br><br></h4>
+    </fieldset>
+</form>
+</html>
+<img src="https://cdn-icons-png.flaticon.com/512/34/34627.png" class="img-thumbnail" alt="..." width="50" height="100">
+<button type="button" class="btn btn-primary position-relative">
+  ORDER <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-secondary">4 <span class="visually-hidden">unread messages</span></span>
+</button>
+<img src="https://cdn.iconscout.com/icon/premium/png-256-thumb/add-wishlist-9389873-7626557.png?f=webp&w=128" class="img-thumbnail" alt="..." width="50" height="100">
+<button type="button" class="btn btn-primary position-relative">
+  WISHLIST <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-secondary">3 <span class="visually-hidden">unread messages</span></span>
+</button><br><br>
+<img src="https://cdn.iconscout.com/icon/premium/png-256-thumb/help-center-3102355-2583874.png" class="img-thumbnail" alt="..." width="50" height="100">
+<button type="button" class="btn btn-primary position-relative">
+  HELP CENTRE <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-secondary">? <span class="visually-hidden">unread messages</span></span>
+</button>
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTDTOEkDovEVpplHgcscu0aLtDJK-KNK3IBJj5-LFXei-k5C_NVYuT8bISPaSB_3KIk98&usqp=CAU" class="img-thumbnail" alt="..." width="50" height="100">
+<button type="button" class="btn btn-primary position-relative">
+  COUPONS <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-secondary">? <span class="visually-hidden">unread messages</span></span>
+</button><br><br>
+<html>
+<body>
+<b><h5>Account settings</h5></b><br>
+<h6><img src="https://cdn-icons-png.flaticon.com/512/3106/3106773.png" class="img-thumbnail" alt="..." width="40" height="50">  Edit Profile</h6><br>
+<h6><img src="data:image/png;base64,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" class="img-thumbnail" alt="..." width="40" height="50">  Saved Cards$Wallet</h6><br>
+<h6><img src="https://cdn-icons-png.flaticon.com/512/1160/1160357.png" class="img-thumbnail" alt="..." width="40" height="50">  Saved Addresses</h6><br>
+<h6><img src="https://cdn-icons-png.flaticon.com/512/484/484633.png" class="img-thumbnail" alt="..." width="40" height="50">Select Languages</h6><br>
+<h6><img src="https://cdn-icons-png.flaticon.com/512/3119/3119338.png" class="img-thumbnail" alt="..." width="40" height="50">  Notification Settings</h6><br>
+<h6><img src="data:image/png;base64,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" class="img-thumbnail" alt="..." width="40" height="50">  Cart</h6>
+</body>
+</html>
+
+
+{% endblock %}
